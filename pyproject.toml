@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "threshold-keel"
+version = "0.2.5"
+license = "BUSL-1.1"
+description = "Structural persistence guarantee for LLM agent systems"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Threshold Signalworks", email = "info@thresholdsignalworks.com"},
+]
+
+dependencies = []
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+keel = "keel.cli.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+llm = [
+    "tiktoken>=0.5",
+]
+
+[project.urls]
+Homepage = "https://thresholdsignalworks.com/keel"
+Repository = "https://github.com/threshold-signalworks/keel"
+Documentation = "https://thresholdsignalworks.com/keel"
+"Cloud Dashboard" = "https://thresholdsignalworks.com/cloud"
+"Bug Tracker" = "https://github.com/threshold-signalworks/keel/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.setuptools.packages.find]
+include = ["keel", "keel.*"]
+exclude = ["tests*"]

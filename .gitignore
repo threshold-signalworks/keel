@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.keel/
+*.db
+.env
+.venv/
+.publish-venv/
+.verify-live/
+.test-venv/
