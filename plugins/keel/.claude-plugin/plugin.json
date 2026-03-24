@@ -1,0 +1,11 @@
+{
+  "name": "keel",
+  "description": "Safety guardrails for autonomous agents. Append-only WAL with SHA-256 hash chains, policy enforcement at the action layer, approval gates for irreversible operations, quarantine-before-delete, and blast-radius caps.",
+  "version": "0.2.5",
+  "author": "threshold-signalworks",
+  "homepage": "https://github.com/threshold-signalworks/keel",
+  "license": "BSL-1.1",
+  "skills": [
+    "skills/keel"
+  ]
+}
