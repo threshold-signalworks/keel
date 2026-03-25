@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "threshold-signalworks-keel",
+  "description": "Structural safety guardrails for AI agents. Policy enforcement, audit trails, approval gates.",
+  "owner": {
+    "name": "Threshold Signalworks",
+    "email": "info@thresholdsignalworks.com"
+  },
+  "plugins": [
+    {
+      "name": "keel",
+      "description": "Safety guardrails for autonomous agents. Append-only WAL with SHA-256 hash chains, policy enforcement at the action layer, approval gates for irreversible operations, quarantine-before-delete, and blast-radius caps. Works as behavioural guardrails from the SKILL.md alone, or install the CLI for cryptographic audit trails.",
+      "source": "./plugins/keel",
+      "category": "security",
+      "homepage": "https://github.com/threshold-signalworks/keel"
+    }
+  ]
+}
