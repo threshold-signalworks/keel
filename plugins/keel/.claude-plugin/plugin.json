@@ -1,7 +1,7 @@
 {
   "name": "threshold",
   "description": "Safety guardrails for autonomous agents. Append-only WAL with SHA-256 hash chains, policy enforcement at the action layer, approval gates for irreversible operations, quarantine-before-delete, and blast-radius caps.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "author": {
     "name": "Threshold Signalworks",
     "email": "info@thresholdsignalworks.com"
