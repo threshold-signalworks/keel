@@ -1,28 +1,5 @@
 ---
-name: threshold-keel
-description: Safety guardrails for autonomous agents. Intercepts destructive actions, requires structured approval before irreversible operations, logs every action to an audit trail. Your lobster has claws. Keel is the rubber band.
-version: 0.2.5
-author: threshold-signalworks
-metadata:
-  openclaw:
-    emoji: "🦞🔒"
-    requires:
-      bins:
-        - python3
-        - pip3
-      env: []
-    install:
-      - kind: uv
-        package: threshold-keel
-        bins: [keel]
-    primaryEnv: KEEL_POLICY_DIR
-    tags:
-      - safety
-      - guardrails
-      - security
-      - audit
-      - approval
-    homepage: https://thresholdsignalworks.com/keel
+description: Safety guardrails for autonomous agents. Intercepts destructive actions, requires structured approval before irreversible operations, logs every action to an audit trail.
 ---
 
 # Keel — Structural Safety for Autonomous Agents
