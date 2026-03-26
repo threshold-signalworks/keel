@@ -14,10 +14,9 @@ metadata:
       env:
         - KEEL_CLOUD_API_KEY (optional — required only for Threshold Cloud sync)
     install:
-      - kind: uv
+      - kind: pip
         package: threshold-keel
         bins: [keel]
-    primaryEnv: KEEL_POLICY_DIR
     tags:
       - safety
       - guardrails
