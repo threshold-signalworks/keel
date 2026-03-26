@@ -1,6 +1,6 @@
 ---
 name: threshold-keel
-description: Safety guardrails for autonomous agents. Intercepts destructive actions, requires structured approval before irreversible operations, with CLI-backed cryptographic audit trails and policy enforcement.
+description: Safety guardrails for autonomous agents. Intercepts destructive actions and vets skills, requires structured approval before irreversible operations, with CLI-backed cryptographic audit trails and policy enforcement.
 ---
 
 # Keel — Structural Safety for Autonomous Agents
