@@ -8,10 +8,15 @@
   },
   "plugins": [
     {
-      "name": "keel",
+      "name": "threshold",
       "description": "Safety guardrails for autonomous agents. Append-only WAL with SHA-256 hash chains, policy enforcement at the action layer, approval gates for irreversible operations, quarantine-before-delete, and blast-radius caps. Works as behavioural guardrails from the SKILL.md alone, or install the CLI for cryptographic audit trails.",
-      "source": "./plugins/keel",
+      "author": {
+        "name": "Threshold Signalworks",
+        "email": "info@thresholdsignalworks.com"
+      },
+      "source": "./plugins/threshold",
       "category": "security",
+      "tags": ["safety", "audit", "guardrails", "policy-enforcement", "approval-gates"],
       "homepage": "https://github.com/threshold-signalworks/keel"
     }
   ]
