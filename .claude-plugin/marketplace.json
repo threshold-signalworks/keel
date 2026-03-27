@@ -14,7 +14,7 @@
         "name": "Threshold Signalworks",
         "email": "info@thresholdsignalworks.com"
       },
-      "source": "./plugins/threshold",
+      "source": "./plugins/keel",
       "category": "security",
       "tags": ["safety", "audit", "guardrails", "policy-enforcement", "approval-gates"],
       "homepage": "https://github.com/threshold-signalworks/keel"
